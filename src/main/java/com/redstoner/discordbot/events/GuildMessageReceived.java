@@ -22,6 +22,11 @@ public final class GuildMessageReceived extends ListenerAdapter {
 		Message     message    = event.getMessage();
 		String      rawMessage = message.getContentRaw();
 		Member      member     = event.getMember();
+
+		if (member.getUser().equals(event.getJDA().getSelfUser())) {
+			return;
+		}
+
 		if (channel.getId().equals(rankSyncChannel)) {
 			if (guild.getSelfMember().hasPermission(channel, Permission.MESSAGE_MANAGE)) {
 				message.delete().reason("Redstoner Channel Restriction").queue();
