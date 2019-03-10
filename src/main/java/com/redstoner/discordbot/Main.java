@@ -3,6 +3,7 @@ package com.redstoner.discordbot;
 import com.redstoner.discordbot.commands.LinkAccount;
 import com.redstoner.discordbot.commands.LinkStatus;
 import com.redstoner.discordbot.commands.Nickname;
+import com.redstoner.discordbot.events.GuildMessageReceived;
 import com.redstoner.discordbot.tasks.ForumNotificationTask;
 import com.redstoner.discordbot.tasks.GuildRankSyncTask;
 import com.redstoner.discordbot.utils.RankUtil;
@@ -49,6 +50,9 @@ public final class Main {
 		CommandManager.registerCommandAlias("nick", "nickname");
 		CommandManager.registerCommand("linkstatus", new LinkStatus(), false);
 		CommandManager.registerCommandAlias("ls", "linkstatus");
+
+		logger.info("Registering events...");
+		LogalBot.getJDA().addEventListener(new GuildMessageReceived());
 
 		logger.info("Starting tasks...");
 		Scheduler.scheduleAtFixedRate(new ForumNotificationTask(), 1, 1, TimeUnit.MINUTES);
