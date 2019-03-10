@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.2'
+    }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:3.8.3_460'
+    implementation 'com.github.LogalDeveloper:LogalBot:f4f13ddc45'
+    implementation 'mysql:mysql-connector-java:5.1.37'
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "com.redstoner.discordbot.Main"
+    }
+}
