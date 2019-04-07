@@ -8,14 +8,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.github.LogalDeveloper:LogalBot:f4f13ddc45" level="project" />
-    <orderEntry type="library" name="Gradle: net.dv8tion:JDA:3.8.3_460" level="project" />
+    <orderEntry type="library" name="Gradle: dev.logal.git.LogalDeveloper:LogalBot:07c0dcdd2c" level="project" />
+    <orderEntry type="library" name="Gradle: net.dv8tion:JDA:3.8.3_462" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:5.1.37" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:16.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.sedmelluq:lavaplayer:1.3.11" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.26" level="project" />
     <orderEntry type="library" name="Gradle: redis.clients:jedis:2.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.sedmelluq:lavaplayer:1.3.13" level="project" />
     <orderEntry type="library" name="Gradle: com.sedmelluq:lava-common:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
     <orderEntry type="library" name="Gradle: com.neovisionaries:nv-websocket-client:2.5" level="project" />
@@ -27,14 +27,14 @@
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
     <orderEntry type="library" name="Gradle: club.minnced:opus-java-api:1.0.4" level="project" />
     <orderEntry type="library" name="Gradle: club.minnced:opus-java-natives:1.0.4" level="project" />
-    <orderEntry type="library" name="Gradle: com.sedmelluq:lavaplayer-natives:1.3.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.4.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.sedmelluq:lavaplayer-natives:1.3.13" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
     <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.11.3" level="project" />
     <orderEntry type="library" name="Gradle: net.iharder:base64:2.3.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.commons:commons-pool2:2.4.3" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.10" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />

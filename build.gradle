@@ -20,9 +20,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.dv8tion:JDA:3.8.3_460'
-    implementation 'com.github.LogalDeveloper:LogalBot:f4f13ddc45'
-    implementation 'mysql:mysql-connector-java:5.1.37'
+    implementation('net.dv8tion:JDA:3.8.3_462')
+    implementation('dev.logal.git.LogalDeveloper:LogalBot:07c0dcdd2c')
+    implementation('mysql:mysql-connector-java:5.1.37')
 }
 
 jar {
